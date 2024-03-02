@@ -1,0 +1,15 @@
+@import "../../App.scss";
+.header-container {
+  color: white;
+  background-color: $blue-color;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  .title {
+    padding: 10px 20px;
+    font-weight: 700;
+  }
+}
